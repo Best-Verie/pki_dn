@@ -1,0 +1,56 @@
+
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>EDS API</title>
+    <link href="./statics/vendor/bootstrap-4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./statics/vendor/bootstrap-toggle/css/bootstrap-toggle.min.css" rel="stylesheet">
+    <link href="./statics/oauth/cloudpki.ui.css" rel="stylesheet">    
+    </head>    
+    <style>
+    label {
+        font-size: 80%;
+    }
+    </style>    
+    <body>
+        <div class="container" style="max-width: 1725px;">
+            <h2 class="mt-4">
+                <b>CERTIFICATE REGISTRATION</b>
+            </h2>
+            
+            <hr>
+            
+            <div class="row">	
+        
+                    
+             
+                <div class="col-sm">	
+                    <button id="btn-get-p7-detached-message"
+                    class="btn btn-primary m-2 col-sm"
+                    onclick="vidCheckAction();">Get dn</button>			
+                    
+                    <hr>
+                    <div class="form-group row">                       
+                        <div class="col-sm">
+                            <label>DN:</label>
+                            <textarea id="dn" class="form-control" rows="1"></textarea>
+                        </div>                      
+    
+                    </div>    
+                    <hr>                           
+                </div>
+            </div>			
+            </div>
+        </div>	
+        <script src='./statics/vendor/jquery-3.4.1/jquery.min.js'></script>
+        <script src="./statics/vendor/bootstrap-4.4.1/js/bootstrap.min.js"></script>
+        <script src="./statics/vendor/bootstrap-toggle/js/bootstrap-toggle.min.js"></script>
+        <script src="./statics/oauth/cloudpki.api.js"></script>
+        <script src="./statics/oauth/cloudpki.ui.js"></script>
+        <script src="./statics/js/ui-events.js"></script>
+        <script src="./statics/js/demo-functions.js"></script>
+        <script src="./statics/assets/form-to-json.js"></script>
+        <script src="./statics/assets/script.js"></script>
+    </body>
+    </html>
+    
